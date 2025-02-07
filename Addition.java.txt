@@ -1,0 +1,14 @@
+class Addition {
+
+int a;
+int b;
+public  int add(a,b){
+return c
+}
+public static void main(String [] args){
+
+Addition ad =new Addition();
+int d=ad.add(10,20);
+ }
+
+}
