@@ -43,11 +43,10 @@ a. @RequestBody : Input/Request Data XML/**JSON is converted into Object format
                   and given as method param in our Rest Controller.
 
 b. @ResponseBody : Rest Controller method returns one Object, this object is converted
-                  into XML/**JSON format and given as Output to client machine.
+                  into XML/**JSON format ad given as Output to client machine.
 
 
-
-
+Response Entity  return Body and Http Status code to client 
 
 
 
