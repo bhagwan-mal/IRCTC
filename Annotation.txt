@@ -1,0 +1,53 @@
+@Qualifier:- this annotation is used whenever child class having multiple impl  class then
+            we can used @Qualifier annotation in parent class to decide child class impl
+	    class to execute.
+
+@Primary:- this annotation is used whenever child class having multiple impl class then
+           we can used @Primary annotation to child class impl class on top of the class.
+
+@Autowired:- this annotation is use on top has-A relation to inject(link) two object.
+
+@Value :- this annotation is used to provide value to variable.
+
+@Component:- this annotation is used on top of the class to create object of that class. 
+
+@Configuration:-this annotation is use to converts a normal class into spring container 
+                understandable class.
+
+@Bean:- this annotation is used to convert normal method into object placed in container
+        so that you can access those object wherever in application.
+
+@Transient:-this annotation is use if you do not want create column in Database table then use this annotation over the 
+            entity class variable
+
+@Table :- this annotation is use to give our own name to table by default class name as table name.
+
+@column :- this annotation is used to give our own name to columns by default Variable  name as columns name.
+
+@Data:- this is Lombok annotation  inside @Getter @Setter @RequiredArgsConstructor @ToString @EqualsAndHashCode is there we need not write
+        Getter and setter method in class .                                            
+
+@Entity:- this annotation is used on top of model class to convert our Class name as table variable name as columns name. 
+
+@Id:- this annotation is used to create primary key
+
+@GeneratedValue:-this annotation is used to create our own type of primary key 
+
+@ModelAttribute:- is use to read the data from html form.
+
+Model :- is use to send data to html form.
+
+@RequestMapping :- is used to mapped the URL of rest controller method
+
+a. @RequestBody : Input/Request Data XML/**JSON is converted into Object format
+                  and given as method param in our Rest Controller.
+
+b. @ResponseBody : Rest Controller method returns one Object, this object is converted
+                  into XML/**JSON format and given as Output to client machine.
+
+
+
+
+
+
+
